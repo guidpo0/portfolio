@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Meus projetos:</h1>
       <ul>
-        <a href="www.guidpo0.github.io/trybewallet" target="_blank">Trybewallet</a>
+        <a href="http://www.guidpo0.github.io/trybewallet" rel="noreferrer" target="_blank">Trybewallet</a>
       </ul>
     </div>
   );

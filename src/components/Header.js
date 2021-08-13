@@ -7,14 +7,14 @@ function Header() {
 
   function openNavbar() {
     const toggleColapsed = document.querySelector('.toggle-colapsed-bar');
-    const navbarSibling = document.querySelector('.navbar-container').nextSibling;
+    const navbarParent = document.querySelector('.navbar-container').parentNode;
     if (!isNavbarOpen) {
       toggleColapsed.classList.add('navbar-opened');
-      navbarSibling.classList.add('navbar-opened-sibling');
+      navbarParent.classList.add('navbar-opened-parent');
     }
     if (isNavbarOpen) {
       toggleColapsed.classList.remove('navbar-opened');
-      navbarSibling.classList.remove('navbar-opened-sibling');
+      navbarParent.classList.remove('navbar-opened-parent');
     }
     setIsNavbarOpen(!isNavbarOpen)    
   }

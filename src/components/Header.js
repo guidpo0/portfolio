@@ -7,8 +7,15 @@ function Header() {
 
   function openNavbar() {
     const toggleColapsed = document.querySelector('.toggle-colapsed-bar');
-    if (!isNavbarOpen) toggleColapsed.classList.add('navbar-opened');
-    if (isNavbarOpen) toggleColapsed.classList.remove('navbar-opened');
+    const navbarSibling = document.querySelector('.navbar-container').nextSibling;
+    if (!isNavbarOpen) {
+      toggleColapsed.classList.add('navbar-opened');
+      navbarSibling.classList.add('navbar-opened-sibling');
+    }
+    if (isNavbarOpen) {
+      toggleColapsed.classList.remove('navbar-opened');
+      navbarSibling.classList.remove('navbar-opened-sibling');
+    }
     setIsNavbarOpen(!isNavbarOpen)    
   }
 

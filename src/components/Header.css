@@ -4,7 +4,7 @@
   display: flex;
   left: 0;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   top: 0;
   transition: 1s;
   width: 100%;
@@ -95,4 +95,9 @@
 
 .navbar-opened span {
   opacity: 0;
+}
+
+.navbar-opened-sibling {
+  transition: 1s;
+  transform: translateY(30px);
 }

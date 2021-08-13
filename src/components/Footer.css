@@ -1,0 +1,38 @@
+.footer {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+.footer p {
+  height: 50px;
+  margin: 0 40px;
+  position: relative;
+  width: 50px;
+}
+
+.github {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.linkedin {
+  height: 50px;
+  object-fit: cover;
+  position: absolute;
+  width: 50px;
+}
+

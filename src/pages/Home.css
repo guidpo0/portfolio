@@ -1,3 +1,30 @@
 .home-page-container {
-  margin: 60px 20px;
+  min-height: 100vh;
+  background-image: url('../images/homeBg.png');
+  background-repeat: repeat-y;
+  background-position-x: center;
+  background-size: contain;
+  position: relative;
+}
+
+.home-page-container main {
+  transition: 1s;
+  padding: 60px 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page-container main a {
+  margin: 10px 20px 25px;
+  align-self: center;
+}
+
+.home-page-container main a button {
+  padding: 25px 15px;
+  border: 5px dashed;
+  background: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  border-radius: 10%;
 }

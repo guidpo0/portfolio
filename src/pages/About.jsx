@@ -1,16 +1,17 @@
-import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import React, { useEffect } from 'react';
+import './About.css';
 
 function About() {
+  useEffect(() => {
+    const navBarOpened = document.querySelector('.navbar-opened');
+    const aboutPage = document.querySelector('.about-page-container');
+    navBarOpened && aboutPage.classList.add('navbar-opened-sibling');
+  }, []);
+
   return (
-    <>
-      <div>
-        <Header />
-        About
-      </div>
-      <Footer />
-    </>
+    <div className="about-page-container">
+      About
+    </div>
   );
 }
 

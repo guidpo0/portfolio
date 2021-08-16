@@ -1,0 +1,10 @@
+.about-page-container {
+  min-height: 100vh;
+  background-image: url('../images/homeBg.png');
+  background-repeat: repeat-y;
+  background-position-x: center;
+  background-size: contain;
+  position: relative;
+  transition: 1s;
+  z-index: -1;
+}

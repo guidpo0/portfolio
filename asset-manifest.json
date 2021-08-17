@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.777b82f8.chunk.css",
-    "main.js": "/portfolio/static/js/main.d442fa1f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d442fa1f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0f083741.chunk.css",
+    "main.js": "/portfolio/static/js/main.18ef4918.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.18ef4918.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.bc0a563e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.bc0a563e.js.map",
     "static/js/2.e1af55a9.chunk.js": "/portfolio/static/js/2.e1af55a9.chunk.js",
@@ -10,17 +10,22 @@
     "static/js/3.976f7d49.chunk.js": "/portfolio/static/js/3.976f7d49.chunk.js",
     "static/js/3.976f7d49.chunk.js.map": "/portfolio/static/js/3.976f7d49.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.777b82f8.chunk.css.map": "/portfolio/static/css/main.777b82f8.chunk.css.map",
+    "static/css/main.0f083741.chunk.css.map": "/portfolio/static/css/main.0f083741.chunk.css.map",
     "static/js/2.e1af55a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e1af55a9.chunk.js.LICENSE.txt",
     "static/media/aboutPicture.4ed742d8.jpg": "/portfolio/static/media/aboutPicture.4ed742d8.jpg",
     "static/media/github.987334e9.png": "/portfolio/static/media/github.987334e9.png",
     "static/media/Contact.css": "/portfolio/static/media/homeBg.92f4c36a.png",
-    "static/media/linkedin.ed083572.png": "/portfolio/static/media/linkedin.ed083572.png"
+    "static/media/linkedin.ed083572.png": "/portfolio/static/media/linkedin.ed083572.png",
+    "static/media/skillCss.38381767.png": "/portfolio/static/media/skillCss.38381767.png",
+    "static/media/skillHtml.23784160.png": "/portfolio/static/media/skillHtml.23784160.png",
+    "static/media/skillJs.f2523abb.png": "/portfolio/static/media/skillJs.f2523abb.png",
+    "static/media/skillReact.2b5b91e6.png": "/portfolio/static/media/skillReact.2b5b91e6.png",
+    "static/media/skillRedux.543b98d3.png": "/portfolio/static/media/skillRedux.543b98d3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bc0a563e.js",
     "static/js/2.e1af55a9.chunk.js",
-    "static/css/main.777b82f8.chunk.css",
-    "static/js/main.d442fa1f.chunk.js"
+    "static/css/main.0f083741.chunk.css",
+    "static/js/main.18ef4918.chunk.js"
   ]
 }

@@ -7,6 +7,7 @@
   position: relative;
   transition: 1s;
   z-index: -1;
+  padding-bottom: 80px;
 }
 
 .about-page-container main {
@@ -44,13 +45,13 @@
   margin-left: 10px;
 }
 
-.about-page-container main h2 {
+.about-page-container main > h2 {
   margin: 13px 0;
   margin-left: 10px;
   color: white;
 }
 
-.about-page-container main h3 {
+.about-page-container main > h3 {
   margin-top: 25px;
 }
 
@@ -58,6 +59,46 @@
   margin: 10px 0;
 }
 
-.about-page-container main h6 {
+.about-page-container main h5 {
   margin: 8px 0;
+}
+
+.hard-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hard-skills div {
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 25vw;
+  perspective: 100px;
+  border-radius: 20px;
+  border:rgba(0, 0, 0, 0.562) solid 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px;
+}
+
+.hard-skill {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.hard-skill-2 {
+  transform: scale(1.1);
+}
+
+.hard-skill-3 {
+  transform: scale(1.8);
+}
+
+.hard-skill-4 {
+  transform: scale(1.2);
+}
+
+.hard-skill-5 {
+  transform: scale(1.4);
 }

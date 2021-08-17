@@ -10,7 +10,9 @@ function Contact() {
 
   return (
     <div className="contact-page-container">
-      Contact
+      <main>
+        Contact
+      </main>
     </div>
   );
 }

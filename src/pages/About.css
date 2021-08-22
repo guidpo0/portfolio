@@ -88,17 +88,17 @@
 }
 
 .hard-skill-2 {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .hard-skill-3 {
-  transform: scale(1.8);
+  transform: scale(1.75);
 }
 
 .hard-skill-4 {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 .hard-skill-5 {
-  transform: scale(1.4);
+  transform: scale(1.35);
 }

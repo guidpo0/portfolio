@@ -6,7 +6,7 @@
 }
 
 .about-page-container {
-  min-height: calc(100vh - 145px);
+  min-height: calc(100vh - 160px);
   padding: 70px 20px 60px;
   position: relative;
   transition: 1s;

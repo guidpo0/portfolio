@@ -1,35 +1,32 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import './Projects.css';
+import receitas from '../images/projects/receitas.png';
 
 function Projects() {
-  useEffect(() => {
-    const navBarOpened = document.querySelector('.navbar-opened');
-    const projectsPage = document.querySelector('.projects-page-container');
-    navBarOpened && projectsPage.classList.add('navbar-opened-sibling');
-  }, []);
-
   return (
-    <div className="projects-page-container">
-      <main>
-        <h1>Meus projetos:</h1>
-        <ul>
+    <>
+      <Header />
+      <main className="projects-page-container">
+        <h1>Meus projetos</h1>
+        <h3>Projetos em FrontEnd:</h3>
+        <div className="projects">
           <a
-            href="http://guidpo0.github.io/trybewallet"
+            href="http://guidpo0.github.io/receitas"
             rel="noreferrer"
             target="_blank"
+            className="frontend-project"
           >
-            Trybewallet
+            <div className="frontend-image-container">
+              <img src={receitas} alt="prototipo projeto app de receitas" />
+            </div>
+            <h5>App de Receitas</h5>
           </a>
-          <a
-            href="http://guidpo0.github.io/frontend-online-store"
-            rel="noreferrer"
-            target="_blank"
-          >
-            FrontEnd Online Store
-          </a>
-        </ul>
+        </div>     
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
 

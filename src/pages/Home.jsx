@@ -1,16 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 function Home() {
-  useEffect(() => {
-    const navBarOpened = document.querySelector('.navbar-opened');
-    const homePage = document.querySelector('.home-page-container');
-    navBarOpened && homePage.classList.add('navbar-opened-sibling');
-  }, []);
-
   return (
     <>
       <Header />

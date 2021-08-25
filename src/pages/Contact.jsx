@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import './Contact.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import MainContext from '../context/MainContext';
 
 function Contact() {
+  const { setSendedEmail } = useContext(MainContext);
+
   useEffect(() => {
     const navBarOpened = document.querySelector('.navbar-opened');
     const contactPage = document.querySelector('.contact-page-container');
@@ -20,12 +23,15 @@ function Contact() {
           method="POST"
         >
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://guidpo0.github.io/portfolio" />
+          <input type="hidden" name="_next" value="https://guidpo0.github.io" />
           <input type="text" name="name" placeholder="Seu nome" required />
           <input type="email" name="email" placeholder="Seu e-mail" required />
           <input type="text" name="_subject" placeholder="Assunto" required />
           <textarea name="message" placeholder="Mensagem" required />
-          <button type="submit">
+          <button
+            type="submit"
+            onClick={ () => setSendedEmail(true) }
+          >
             Enviar
           </button>
         </form>

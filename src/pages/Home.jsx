@@ -1,15 +1,25 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import MainContext from '../context/MainContext';
 
 function Home() {
+  const { sendedEmail, setSendedEmail } = useContext(MainContext);
+
   useEffect(() => {
     const navBarOpened = document.querySelector('.navbar-opened');
     const homePage = document.querySelector('.home-page-container');
     navBarOpened && homePage.classList.add('navbar-opened-sibling');
   }, []);
+
+  useEffect(() => {
+    if (sendedEmail) {
+      alert('Mensagem enviada!')
+      setSendedEmail(false);
+    }
+  }, [sendedEmail, setSendedEmail]);
 
   return (
     <>

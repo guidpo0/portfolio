@@ -4,10 +4,13 @@ import MainContext from './MainContext';
 
 function MainProvider({ children }) {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const [sendedEmail, setSendedEmail] = useState(false);
 
   const contextValue = {
     isNavbarOpen,
     setIsNavbarOpen,
+    sendedEmail,
+    setSendedEmail,
   };
 
   return (

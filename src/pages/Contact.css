@@ -5,10 +5,6 @@
   background-size: contain;
 }
 
-.g-recaptcha div {
-  width: 100%;
-}
-
 .contact-page-container {
   min-height: calc(100vh - 145px);
   position: relative;

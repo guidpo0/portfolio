@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './About.css';
-import aboutPicture from '../images/aboutPicture.jpg';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import skillCss from '../images/skillCss.png';
 import skillGit from '../images/skillGit.png';
 import skillHtml from '../images/skillHtml.png';
@@ -34,12 +35,10 @@ function About() {
   }, []);
 
   return (
-    <div className="about-page-container">
-      <main>
+    <>
+      <Header />
+      <main className="about-page-container">
         <h1>Sobre mim</h1>
-        <div className="about-picture-container">
-          <img src={ aboutPicture } alt="Foto na praia" className="about-picture" />
-        </div>
         <h2>Prazer!</h2>
         <h2>Sou o Guilherme</h2>
         <h3>Paulista, de 96, apaixonado por viagens e aspirante a jogador de basquete.</h3>
@@ -69,7 +68,8 @@ function About() {
           </div>
         </div>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
 

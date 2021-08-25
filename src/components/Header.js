@@ -1,23 +1,20 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import MainContext from '../context/MainContext';
 import './Header.css';
 
 function Header() {
-  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const { isNavbarOpen, setIsNavbarOpen } = useContext(MainContext);
 
-  function openNavbar() {
-    const toggleColapsed = document.querySelector('.toggle-colapsed-bar');
+  useEffect(() => {
     const navbarSibling = document.querySelector('.navbar-container').nextSibling;
-    if (!isNavbarOpen) {
-      toggleColapsed.classList.add('navbar-opened');
+    if (isNavbarOpen) {
       navbarSibling.classList.add('navbar-opened-sibling');
     }
-    if (isNavbarOpen) {
-      toggleColapsed.classList.remove('navbar-opened');
+    if (!isNavbarOpen) {
       navbarSibling.classList.remove('navbar-opened-sibling');
     }
-    setIsNavbarOpen(!isNavbarOpen)    
-  }
+  }, [isNavbarOpen]);
 
   return (
     <header className="navbar-container">
@@ -41,9 +38,12 @@ function Header() {
         </div>
       </nav>
       <button
-        onClick={ openNavbar }
+        onClick={ () => setIsNavbarOpen(!isNavbarOpen) }
         type="button"
-        className="toggle-colapsed-bar"
+        className={
+          isNavbarOpen
+            ? 'toggle-colapsed-bar navbar-opened' : 'toggle-colapsed-bar'
+        }
       >
         <span />
       </button>

@@ -5,6 +5,7 @@
   left: 0;
   overflow: hidden;
   position: fixed;
+  z-index: 1;
   top: 0;
   transition: 1s;
   width: 100%;
@@ -99,5 +100,5 @@
 
 .navbar-opened-sibling {
   transition: 1s;
-  transform: translateY(30px);
+  transform: translateY(100px);
 }

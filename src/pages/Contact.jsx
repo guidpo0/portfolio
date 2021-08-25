@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import './Contact.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Contact() {
   useEffect(() => {
@@ -9,11 +11,25 @@ function Contact() {
   }, []);
 
   return (
-    <div className="contact-page-container">
-      <main>
-        Contact
+    <>
+      <Header />
+      <main className="contact-page-container">
+        <h1>Contato</h1>
+        <form
+          action="https://formsubmit.co/guilhermepdo1508@gmail.com"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <input type="text" name="_ subject" placeholder="Assunto" required />
+          <textarea name="message" placeholder="Mensagem" required />
+          <button type="submit">
+            Enviar
+          </button>
+        </form>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
 

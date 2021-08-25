@@ -19,11 +19,11 @@ function Contact() {
           action="https://formsubmit.co/guilhermepdo1508@gmail.com"
           method="POST"
         >
-          <input type="hidden" name="_ captcha" value="false" />
-          <input type="hidden" name="_ next" value="https://guidpo0.github.io/portfolio" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://guidpo0.github.io/portfolio" />
           <input type="text" name="name" placeholder="Seu nome" required />
           <input type="email" name="email" placeholder="Seu e-mail" required />
-          <input type="text" name="_ subject" placeholder="Assunto" required />
+          <input type="text" name="_subject" placeholder="Assunto" required />
           <textarea name="message" placeholder="Mensagem" required />
           <button type="submit">
             Enviar

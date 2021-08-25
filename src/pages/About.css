@@ -7,8 +7,7 @@
 
 .about-page-container {
   min-height: calc(100vh - 145px);
-  transform: translateY(70px);
-  padding: 0 20px 80px;
+  padding: 70px 20px 60px;
   position: relative;
   transition: 1s;
   display: flex;

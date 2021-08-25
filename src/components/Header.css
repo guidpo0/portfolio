@@ -100,5 +100,5 @@
 
 .navbar-opened-sibling {
   transition: 1s;
-  transform: translateY(100px);
+  transform: translateY(30px);
 }

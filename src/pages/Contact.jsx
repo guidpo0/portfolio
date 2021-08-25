@@ -1,12 +1,9 @@
-import React, { useEffect, useContext } from 'react';
-import './Contact.css';
+import React, { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import MainContext from '../context/MainContext';
+import './Contact.css';
 
 function Contact() {
-  const { setSendedEmail } = useContext(MainContext);
-
   useEffect(() => {
     const navBarOpened = document.querySelector('.navbar-opened');
     const contactPage = document.querySelector('.contact-page-container');
@@ -18,19 +15,32 @@ function Contact() {
       <Header />
       <main className="contact-page-container">
         <h1>Contato</h1>
+        <h3>Você pode me contatar diretamente pelo Linkedin ou pode preencher o formulário abaixo que responderei via e-mail:</h3>
         <form
           action="https://formsubmit.co/guilhermepdo1508@gmail.com"
           method="POST"
+          className="contact-form"
         >
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://guidpo0.github.io" />
-          <input type="text" name="name" placeholder="Seu nome" required />
-          <input type="email" name="email" placeholder="Seu e-mail" required />
-          <input type="text" name="_subject" placeholder="Assunto" required />
-          <textarea name="message" placeholder="Mensagem" required />
+          <label htmlFor="name" className="contact-form-label">
+            Nome *
+            <input id="name" type="text" name="name" required />
+          </label>
+          <label htmlFor="email" className="contact-form-label">
+            Email *
+            <input id="email" type="email" name="email" required />
+          </label>
+          <label htmlFor="subject" className="contact-form-label">
+            Assunto *
+            <input id="subject" type="text" name="_subject" required />
+          </label>
+          <label htmlFor="message" className="contact-form-label">
+            Mensagem *
+            <textarea id="message" name="message" required />
+          </label>
           <button
             type="submit"
-            onClick={ () => setSendedEmail(true) }
+            className="contact-form-button"
           >
             Enviar
           </button>

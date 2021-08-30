@@ -20,12 +20,12 @@ function About() {
     'Pensamento Crítico',
   ];
   const hardSkills = [
-    skillCss,
-    skillGit,
-    skillHtml,
-    skillJs,
-    skillReact,
-    skillRedux,
+    { skill: 'CSS', thumb: skillCss },
+    { skill: 'Git', thumb: skillGit },
+    { skill: 'HTML', thumb: skillHtml },
+    { skill: 'JS', thumb: skillJs },
+    { skill: 'React', thumb: skillReact },
+    { skill: 'Redux', thumb: skillRedux },
   ];
 
   return (
@@ -49,13 +49,14 @@ function About() {
           <h3>Hard Skills</h3>
           <div className="hard-skills">
           {
-            hardSkills.map((skill, index) => (
-              <div>
+            hardSkills.map(({ skill, thumb }, index) => (
+              <div key={ index }>
                 <img
-                  src={ skill }
+                  src={ thumb }
                   alt="hard-skills logo"
                   className={ `hard-skill-${index} hard-skill` }
                 />
+                <h4>{ skill }</h4>
               </div>
             ))
           }            

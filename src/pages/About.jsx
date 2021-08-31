@@ -40,7 +40,7 @@ function About() {
         <h5>Minha jornada em tecnologia se iniciou em 2021 com o descontentamento com os métodos de ensino tradicionais, pelos quais estava buscando ingressar no mesmo mercado.</h5>
         <h5>Foi quando decidi me aventurar com métodos pouco experimentados no Brasil e iniciei minha jornada rumo ao conhecimento em desenvolvimento web full stack.</h5>
         <h5>No momento já conclui o módulo de Front End na Trybe, empresa que escolhi para me apontar o caminho nessa jornada, e hoje estou estudando o Back End.</h5>
-        <div>
+        <div className="skills-container">
           <h2 >Habilidades</h2>
           <h3>Soft Skills</h3>
           <ul>

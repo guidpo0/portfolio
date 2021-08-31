@@ -10,7 +10,7 @@ function Projects() {
       <Header />
       <main className="projects-page-container">
         <h1>Meus projetos</h1>
-        <h3>Projetos em FrontEnd:</h3>
+        <h3>Projetos em Front-End:</h3>
         <div className="projects">
           <a
             href="http://guidpo0.github.io/receitas"

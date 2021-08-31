@@ -1,5 +1,89 @@
 @media screen and (max-width: 767.98px) {
+  #root {
+    background-image: url('../images/homeBg.png');
+    background-repeat: repeat-y;
+    background-position-x: center;
+    background-size: contain;
+  }
   
+  .about-page-container {
+    min-height: calc(100vh - 160px);
+    padding: 20px;
+    position: relative;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-page-container h1 {
+    margin: 20px 10px 10px;
+  }
+  
+  .about-page-container h2 {
+    margin: 10px 10px;
+  }
+  
+  .about-page-container h3 {
+    margin: 10px 10px;
+  }
+  
+  .about-page-container h4 {
+    margin: 10px 10px;
+    font-size: 1.1em;
+  }
+  
+  .about-page-container h5 {
+    font-size: 1.1em;
+    margin: 10px 10px;
+  }
+
+  .skills-container h2 {
+    margin: 20px 10px 10px;
+  }
+  
+  .skills-container h3 {
+    margin: 20px 10px 10px;
+  }
+
+  .skills-container ul {
+    margin: 5px 30px;
+  }
+
+  .skills-container ul li {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+
+  .hard-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .hard-skills div {
+    height: 35vw;
+    margin-bottom: 20px;
+    width: 25vw;
+    border-radius: 20px;
+    border:rgba(0, 0, 0, 0.562) solid 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .hard-skill {
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 10px;
+  }
+  
+  .hard-skill ~ h4 {
+    margin: 5px;
+    font-size: 1.5em;
+  }  
 }
 
 @media screen and (max-width: 575.98px) {
@@ -20,25 +104,41 @@
   }
   
   .about-page-container h1 {
-    margin-bottom: 10px;
+    margin: 20px 10px 10px;
   }
   
-  .about-page-container > h2 {
-    margin: 13px 0;
+  .about-page-container h2 {
+    margin: 10px 10px;
   }
   
-  .about-page-container > h3 {
-    margin-top: 25px;
+  .about-page-container h3 {
+    margin: 10px 10px;
   }
   
   .about-page-container h4 {
-    margin: 10px 0;
+    margin: 10px 10px;
   }
   
   .about-page-container h5 {
-    margin: 8px 0;
+    margin: 10px 10px;
+  }
+
+  .skills-container h2 {
+    margin: 20px 10px 10px;
   }
   
+  .skills-container h3 {
+    margin: 20px 10px 10px;
+  }
+
+  .skills-container ul {
+    margin: 5px 30px;
+  }
+
+  .skills-container ul li {
+    margin: 5px 0;
+  }
+
   .hard-skills {
     display: flex;
     flex-wrap: wrap;

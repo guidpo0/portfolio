@@ -18,8 +18,13 @@
 .projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: space-around;
   justify-content: center;
+}
+
+.projects a {
+  position: relative;
+  width: 40%;
 }
 
 .frontend-project {
@@ -48,8 +53,47 @@
   width: 100%;
 }
 
+.frontend-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: 1s;
+}
+
+.frontend-description p {
+  font-size: 1.2em;
+  font-weight: 900;
+  line-height: 30px;
+  padding: 5px;
+  color: white;
+}
+
+.projects a:hover .frontend-description {
+  opacity: 1;
+}
+
 @media screen and (max-width: 767.98px) {
+  .projects {
+    align-items: center;
+  }
+
+  .projects a {
+    width: 100%;
+  }
+
   .projects-page-container {
     padding: 70px 20px 60px;
+  }
+
+  .frontend-description {
+    display: none;
   }
 }

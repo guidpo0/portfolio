@@ -22,6 +22,11 @@ function Projects() {
               <img src={receitas} alt="prototipo projeto app de receitas" />
             </div>
             <h5>App de Receitas</h5>
+            <div className="frontend-description">
+              <p>
+                App de receitas onde é possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks!
+              </p>
+            </div>
           </a>
         </div>     
       </main>

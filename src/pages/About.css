@@ -53,9 +53,9 @@
 }
 
 .hard-skills div {
-  height: 35vw;
+  height: cal(10vw + 50px);
   margin-bottom: 20px;
-  width: 25vw;
+  width: 10vw;
   border-radius: 20px;
   border:rgba(0, 0, 0, 0.562) solid 1px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@
 .hard-skill ~ h4 {
   margin: 5px;
   font-size: 1.5em;
-}  
+}
 
 @media screen and (max-width: 767.98px) {
   #root {
@@ -88,7 +88,7 @@
   .about-page-container {
     padding: 70px 20px 60px;
   }
-  
+
   .about-page-container h4 {
     font-size: initial;
   }
@@ -99,5 +99,10 @@
 
   .skills-container ul li {
     font-size: initial;
+  }
+
+  .hard-skills div {
+    height: 35vw;
+    width: 25vw;
   }
 }

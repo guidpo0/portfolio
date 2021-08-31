@@ -9,6 +9,7 @@
   background-position-x: center;
   background-size: contain;
   min-height: 100vh;
+  overflow: hidden;
   width: 100vw;
   box-sizing: border-box;
 }

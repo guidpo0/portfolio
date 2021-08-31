@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.76ebc200.chunk.css",
-    "main.js": "/static/js/main.e978bddc.chunk.js",
-    "main.js.map": "/static/js/main.e978bddc.chunk.js.map",
+    "main.css": "/static/css/main.18cb9b79.chunk.css",
+    "main.js": "/static/js/main.cc5108f8.chunk.js",
+    "main.js.map": "/static/js/main.cc5108f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.78cdc821.js",
     "runtime-main.js.map": "/static/js/runtime-main.78cdc821.js.map",
     "static/js/2.a4160557.chunk.js": "/static/js/2.a4160557.chunk.js",
@@ -10,22 +10,21 @@
     "static/js/3.c4efc561.chunk.js": "/static/js/3.c4efc561.chunk.js",
     "static/js/3.c4efc561.chunk.js.map": "/static/js/3.c4efc561.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.76ebc200.chunk.css.map": "/static/css/main.76ebc200.chunk.css.map",
+    "static/css/main.18cb9b79.chunk.css.map": "/static/css/main.18cb9b79.chunk.css.map",
     "static/js/2.a4160557.chunk.js.LICENSE.txt": "/static/js/2.a4160557.chunk.js.LICENSE.txt",
     "static/media/github.987334e9.png": "/static/media/github.987334e9.png",
     "static/media/Contact.css": "/static/media/homeBg.92f4c36a.png",
     "static/media/linkedin.ed083572.png": "/static/media/linkedin.ed083572.png",
     "static/media/receitas.c3cf394d.png": "/static/media/receitas.c3cf394d.png",
-    "static/media/skillCss.38381767.png": "/static/media/skillCss.38381767.png",
-    "static/media/skillHtml.23784160.png": "/static/media/skillHtml.23784160.png",
-    "static/media/skillJs.f2523abb.png": "/static/media/skillJs.f2523abb.png",
-    "static/media/skillReact.2b5b91e6.png": "/static/media/skillReact.2b5b91e6.png",
-    "static/media/skillRedux.543b98d3.png": "/static/media/skillRedux.543b98d3.png"
+    "static/media/skillCss.72f9c865.png": "/static/media/skillCss.72f9c865.png",
+    "static/media/skillHtml.3a231d01.png": "/static/media/skillHtml.3a231d01.png",
+    "static/media/skillJs.0abbc622.png": "/static/media/skillJs.0abbc622.png",
+    "static/media/skillReact.c5b4c0d6.png": "/static/media/skillReact.c5b4c0d6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.78cdc821.js",
     "static/js/2.a4160557.chunk.js",
-    "static/css/main.76ebc200.chunk.css",
-    "static/js/main.e978bddc.chunk.js"
+    "static/css/main.18cb9b79.chunk.css",
+    "static/js/main.cc5108f8.chunk.js"
   ]
 }

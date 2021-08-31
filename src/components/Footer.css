@@ -1,79 +1,99 @@
-@media (max-width: 575.98px) {
-  .footer {
-    align-items: center;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
+.footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+}
 
-  .footer div {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 0;
-  }
+.footer div {
+  display: flex;
+}
 
-  .footer p {
-    height: 50px;
-    margin: 0 40px;
-    position: relative;
-    width: 50px;
-  }
+.footer p {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
-  .github {
-    height: 40px;
-    width: 40px;
-    object-fit: cover;
-    position: absolute;
-  }
+.github {
+  height: 40px;
+  object-fit: cover;
+  position: absolute;
+}
 
-  .linkedin {
-    height: 50px;
-    object-fit: cover;
-    position: absolute;
-    width: 50px;
-  }
+.linkedin {
+  object-fit: cover;
+  position: absolute;
 }
 
 @media (max-width: 767.98px) {
   .footer {
-    align-items: center;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    display: initial;
+    bottom: 40px;
+    height: 90px;
+    width: 50px;
   }
 
   .footer div {
+    flex-direction: column;
+    justify-content: initial;
+    margin: initial;
+  }
+
+  .footer a {
+    height: 45px;
+    width: 100%;
+  }
+
+  .footer p {
+    height: 45px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .github {
+    width: 80%;
+  }
+
+  .linkedin {
+    height: 40px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+  }
+
+  .footer div {
     justify-content: center;
+    flex-direction: initial;
     margin: 10px 0 0;
+  }
+
+  .footer a {
+    height: initial;
+    width: initial;
   }
 
   .footer p {
     height: 50px;
     margin: 0 40px;
-    position: relative;
     width: 50px;
   }
 
   .github {
-    height: 40px;
     width: 40px;
-    object-fit: cover;
-    position: absolute;
   }
 
   .linkedin {
     height: 50px;
-    object-fit: cover;
-    position: absolute;
     width: 50px;
   }
 }

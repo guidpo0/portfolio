@@ -2,6 +2,7 @@
   min-height: calc(100vh - 160px);
   position: relative;
   transition: 1s;
+  padding: 20px 60px;
   display: flex;
   flex-direction: column;
 }
@@ -47,13 +48,7 @@
   width: 100%;
 }
 
-@media (max-width: 767.98px) {
-  .projects-page-container {
-    padding: 20px;
-  }
-}
-
-@media (max-width: 575.98px) {
+@media screen and (max-width: 767.98px) {
   .projects-page-container {
     padding: 70px 20px 60px;
   }

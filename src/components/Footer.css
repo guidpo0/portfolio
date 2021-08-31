@@ -3,14 +3,30 @@
   color: white;
   position: fixed;
   left: 0;
+  display: initial;
+  bottom: 40px;
+  height: 90px;
+  width: 50px;
+  border-radius: 0 5px 5px 0;
 }
 
 .footer div {
   display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  margin: initial;
+}
+
+.footer a {
+  height: 45px;
+  width: 100%;
 }
 
 .footer p {
   display: flex;
+  height: 45px;
+  width: 100%;
+  margin: 0;
   justify-content: center;
   position: relative;
 }
@@ -19,55 +35,34 @@
   height: 40px;
   object-fit: cover;
   position: absolute;
+  width: 80%;
+  transition: 0.5s;
+}
+
+.github:hover {
+  transform: scale(1.1);
 }
 
 .linkedin {
   object-fit: cover;
+  height: 40px;
+  width: 70%;
+  transition: 0.5s;
   position: absolute;
 }
 
-@media (max-width: 767.98px) {
-  .footer {
-    display: initial;
-    bottom: 40px;
-    height: 90px;
-    width: 50px;
-  }
-
-  .footer div {
-    flex-direction: column;
-    justify-content: initial;
-    margin: initial;
-  }
-
-  .footer a {
-    height: 45px;
-    width: 100%;
-  }
-
-  .footer p {
-    height: 45px;
-    width: 100%;
-    margin: 0;
-  }
-
-  .github {
-    width: 80%;
-  }
-
-  .linkedin {
-    height: 40px;
-    width: 70%;
-  }
+.linkedin:hover {
+  transform: scale(1.2);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .footer {
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
     bottom: 0;
+    border-radius: initial;
     height: 60px;
   }
 

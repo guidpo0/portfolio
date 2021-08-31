@@ -1,6 +1,7 @@
 .about-page-container {
   min-height: calc(100vh - 160px);
   position: relative;
+  padding: 20px 60px;
   transition: 1s;
   display: flex;
   flex-direction: column;
@@ -20,9 +21,11 @@
 
 .about-page-container h4 {
   margin: 10px 10px;
+  font-size: 1.1em;
 }
 
 .about-page-container h5 {
+  font-size: 1.1em;
   margin: 10px 10px;
 }
 
@@ -39,6 +42,7 @@
 }
 
 .skills-container ul li {
+  font-size: 1.2em;
   margin: 5px 0;
 }
 
@@ -70,32 +74,10 @@
 
 .hard-skill ~ h4 {
   margin: 5px;
+  font-size: 1.5em;
 }  
 
 @media screen and (max-width: 767.98px) {
-  .about-page-container {
-    padding: 20px;
-  }
-  
-  
-  .about-page-container h4 {
-    font-size: 1.1em;
-  }
-  
-  .about-page-container h5 {
-    font-size: 1.1em;
-  }
-
-  .skills-container ul li {
-    font-size: 1.2em;
-  }
-
-  .hard-skill ~ h4 {
-    font-size: 1.5em;
-  }  
-}
-
-@media screen and (max-width: 575.98px) {
   #root {
     background-image: url('../images/homeBg.png');
     background-repeat: repeat-y;

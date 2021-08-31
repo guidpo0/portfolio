@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import MainContext from '../context/MainContext';
 import './Header.css';
@@ -8,20 +8,19 @@ function Header() {
 
   useEffect(() => {
     const navbarSibling = document.querySelector('.navbar-container').nextSibling;
+    const navbar = document.querySelector('.navbar');
     if (isNavbarOpen) {
       navbarSibling.classList.add('navbar-opened-sibling');
-    }
-    if (!isNavbarOpen) {
+      navbar.classList.remove('colapsed-bar');
+    } else  {
       navbarSibling.classList.remove('navbar-opened-sibling');
+      navbar.classList.add('colapsed-bar');
     }
   }, [isNavbarOpen]);
 
   return (
     <header className="navbar-container">
-      <nav
-        style={ isNavbarOpen? { height: '95px' } : { height: '0' } }
-        className="colapsed-bar"
-      >
+      <nav className="navbar colapsed-bar">
         <div className="links-container">
           <Link to="/">
             <button type="button">HOME</button>

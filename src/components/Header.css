@@ -1,7 +1,31 @@
-@media (max-width: 575.98px) {
-  .colapsed-bar {
+@media (max-width: 767.98px) {
+  .navbar {
+    height: 70px;
     background-color: #111;
-    height: 0;
+    width: 100vw;
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .links-container button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar {
+    background-color: #111;
+    height: 95px;
     display: flex;
     left: 0;
     overflow: hidden;
@@ -9,7 +33,11 @@
     z-index: 1;
     top: 0;
     transition: 1s;
-    width: 100%;
+    width: 100vw;
+  }
+
+  .colapsed-bar {
+    height: 0;
   }
 
   .links-container {

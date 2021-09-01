@@ -69,10 +69,10 @@
 }
 
 .frontend-description p {
-  font-size: 1.2em;
+  font-size: 1.5vw;
   font-weight: 900;
-  line-height: 30px;
-  padding: 5px;
+  line-height: 3vw;
+  padding: 2vw;
   color: white;
 }
 

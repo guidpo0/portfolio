@@ -25,6 +25,9 @@ function Projects() {
             <div className="frontend-description">
               <p>
                 App de receitas onde é possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks!
+                <br />
+                <br />
+                Estilizado para mobile e desktop
               </p>
             </div>
           </a>

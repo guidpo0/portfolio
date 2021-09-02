@@ -62,7 +62,7 @@ function Projects() {
             <div className="frontend-image-container">
               <img src={todo} alt="prototipo projeto planetas starwars" />
             </div>
-            <h5>Arte em Pixels</h5>
+            <h5>Lista de Tarefas</h5>
             <div className="frontend-description">
               <p>
                 Esta aplicação permite ao usuário anotar tarefas e manipulá-las.

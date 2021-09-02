@@ -5,6 +5,7 @@ import './Projects.css';
 import receitas from '../images/projects/receitas.png';
 import planetas from '../images/projects/planetas-starwars.jpeg';
 import pixel from '../images/projects/pixel.jpeg';
+import todo from '../images/projects/todo.jpeg';
 
 function Projects() {
   return (
@@ -46,6 +47,25 @@ function Projects() {
             <div className="frontend-description">
               <p>
                 Essa aplicação dá ao usuário acesso a uma lista de planetas com a opção de realizar filtros nesta lista para procurar por planetas específicos.
+                <br />
+                <br />
+                Estilizado para mobile e desktop
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://guidpo0.github.io/lista-de-tarefas/"
+            rel="noreferrer"
+            target="_blank"
+            className="frontend-project"
+          >
+            <div className="frontend-image-container">
+              <img src={todo} alt="prototipo projeto planetas starwars" />
+            </div>
+            <h5>Arte em Pixels</h5>
+            <div className="frontend-description">
+              <p>
+                Esta aplicação permite ao usuário anotar tarefas e manipulá-las.
                 <br />
                 <br />
                 Estilizado para mobile e desktop

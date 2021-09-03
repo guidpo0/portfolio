@@ -3,6 +3,7 @@ import planetas from '../images/projects/planetas-starwars.jpeg';
 import pixel from '../images/projects/pixel.jpeg';
 import carta from '../images/projects/carta.jpeg';
 import todo from '../images/projects/todo.jpeg';
+import trybewarts from '../images/projects/trybewarts.jpeg';
 
 const projectsInfo = [
   {
@@ -19,6 +20,14 @@ const projectsInfo = [
     alt: 'prototipo projeto planetas starwars',
     title: 'Planetas Starwars',
     description: 'Essa aplicação dá ao usuário acesso a uma lista de planetas com a opção de realizar filtros nesta lista para procurar por planetas específicos.',
+    style: 'Estilizado para mobile e desktop',
+  },
+  {
+    link: 'https://guidpo0.github.io/trybewarts/',
+    thumb: trybewarts,
+    alt: 'prototipo projeto trybewarts',
+    title: 'Trybewarts',
+    description: 'Neste projeto foi desenvolvida uma página de formulário da Escola de Magia de Trybewarts, onde é possível fazer login e enviar feedbacks.',
     style: 'Estilizado para mobile e desktop',
   },
   {

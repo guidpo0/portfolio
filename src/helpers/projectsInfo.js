@@ -4,6 +4,7 @@ import pixel from '../images/projects/pixel.jpeg';
 import carta from '../images/projects/carta.jpeg';
 import todo from '../images/projects/todo.jpeg';
 import trybewarts from '../images/projects/trybewarts.jpeg';
+import shippingCart from '../images/projects/shoppingCart.jpeg';
 
 const projectsInfo = [
   {
@@ -21,6 +22,14 @@ const projectsInfo = [
     title: 'Planetas Starwars',
     description: 'Essa aplicação dá ao usuário acesso a uma lista de planetas com a opção de realizar filtros nesta lista para procurar por planetas específicos.',
     style: 'Estilizado para mobile e desktop',
+  },
+  {
+    link: 'https://guidpo0.github.io/carrinho-de-compras/',
+    thumb: shippingCart,
+    alt: 'prototipo projeto carrinho de compras',
+    title: 'Carrinho de Compras',
+    description: 'Nesse projeto foi feito um carrinho de compras onde é possível adicionar itens vindos da API do mercado livre.',
+    style: 'Estilizado para desktop',
   },
   {
     link: 'https://guidpo0.github.io/trybewarts/',

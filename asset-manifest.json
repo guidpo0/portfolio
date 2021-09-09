@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c9eb9948.chunk.css",
-    "main.js": "/static/js/main.cdd6de1b.chunk.js",
-    "main.js.map": "/static/js/main.cdd6de1b.chunk.js.map",
+    "main.js": "/static/js/main.593db0b7.chunk.js",
+    "main.js.map": "/static/js/main.593db0b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.78cdc821.js",
     "runtime-main.js.map": "/static/js/runtime-main.78cdc821.js.map",
     "static/js/2.a4160557.chunk.js": "/static/js/2.a4160557.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/pixel.3f7b32e4.jpeg": "/static/media/pixel.3f7b32e4.jpeg",
     "static/media/planetas-starwars.b479f76d.jpeg": "/static/media/planetas-starwars.b479f76d.jpeg",
     "static/media/receitas.c3cf394d.png": "/static/media/receitas.c3cf394d.png",
+    "static/media/shoppingCart.19b0a43b.jpeg": "/static/media/shoppingCart.19b0a43b.jpeg",
     "static/media/skillCss.72f9c865.png": "/static/media/skillCss.72f9c865.png",
     "static/media/skillHtml.3a231d01.png": "/static/media/skillHtml.3a231d01.png",
     "static/media/skillJs.0abbc622.png": "/static/media/skillJs.0abbc622.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.78cdc821.js",
     "static/js/2.a4160557.chunk.js",
     "static/css/main.c9eb9948.chunk.css",
-    "static/js/main.cdd6de1b.chunk.js"
+    "static/js/main.593db0b7.chunk.js"
   ]
 }

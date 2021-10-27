@@ -8,10 +8,10 @@ import Contact from '../pages/Contact';
 function Routes() {
   return (
     <Switch>
-      <Route path="/projects" component={ Projects } />
-      <Route path="/contact" component={ Contact } />
-      <Route path="/about" component={ About } />
-      <Route path="/" component={ Home } />
+      <Route path="/projects" component={Projects} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/about" component={About} />
+      <Route path="/" component={Home} />
     </Switch>
   );
 }

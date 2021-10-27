@@ -12,7 +12,7 @@ function Header() {
     if (isNavbarOpen) {
       navbarSibling.classList.add('navbar-opened-sibling');
       navbar.classList.remove('colapsed-bar');
-    } else  {
+    } else {
       navbarSibling.classList.remove('navbar-opened-sibling');
       navbar.classList.add('colapsed-bar');
     }
@@ -33,11 +33,11 @@ function Header() {
           </Link>
           <Link to="/contact">
             <button type="button">CONTATO</button>
-          </Link>  
+          </Link>
         </div>
       </nav>
       <button
-        onClick={ () => setIsNavbarOpen(!isNavbarOpen) }
+        onClick={() => setIsNavbarOpen(!isNavbarOpen)}
         type="button"
         className={
           isNavbarOpen

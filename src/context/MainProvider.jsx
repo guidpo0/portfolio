@@ -11,7 +11,7 @@ function MainProvider({ children }) {
   };
 
   return (
-    <MainContext.Provider value={ contextValue }>
+    <MainContext.Provider value={contextValue}>
       {children}
     </MainContext.Provider>
   );

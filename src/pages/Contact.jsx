@@ -9,7 +9,10 @@ function Contact() {
       <Header />
       <main className="contact-page-container">
         <h1>Contato</h1>
-        <h3>Você pode me contatar diretamente pelo Linkedin ou pode preencher o formulário abaixo que responderei via e-mail:</h3>
+        <h3>
+          Você pode me contatar diretamente pelo Linkedin ou pode preencher o formulário abaixo
+          que responderei via e-mail:
+        </h3>
         <form
           action="https://formsubmit.co/guilhermepdo1508@gmail.com"
           method="POST"

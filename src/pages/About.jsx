@@ -36,30 +36,42 @@ function About() {
         <h2>Prazer!</h2>
         <h2>Sou o Guilherme</h2>
         <h3>Paulista, de 96, apaixonado por viagens e aspirante a jogador de basquete.</h3>
-        <h4>Tenho como pilar minha família e carrego como valores a honestidade e o respeito ao próximo.</h4>
-        <h5>Minha jornada em tecnologia se iniciou em 2021 com o descontentamento com os métodos de ensino tradicionais, pelos quais estava buscando ingressar no mesmo mercado.</h5>
-        <h5>Foi quando decidi me aventurar com métodos pouco experimentados no Brasil e iniciei minha jornada rumo ao conhecimento em desenvolvimento web full stack.</h5>
-        <h5>No momento já conclui o módulo de Front End na Trybe, empresa que escolhi para me apontar o caminho nessa jornada, e hoje estou estudando o Back End.</h5>
+        <h4>
+          Tenho como pilar minha família e carrego como valores a honestidade
+          e o respeito ao próximo.
+        </h4>
+        <h5>
+          Minha jornada em tecnologia se iniciou em 2021 com o descontentamento com os métodos
+          de ensino tradicionais, pelos quais estava buscando ingressar no mesmo mercado.
+        </h5>
+        <h5>
+          Foi quando decidi me aventurar com métodos pouco experimentados no Brasil e iniciei
+          minha jornada rumo ao conhecimento em desenvolvimento web full stack.
+        </h5>
+        <h5>
+          No momento já conclui o módulo de Front End na Trybe, empresa que escolhi para me
+          apontar o caminho nessa jornada, e hoje estou estudando o Back End.
+        </h5>
         <div className="skills-container">
-          <h2 >Habilidades</h2>
+          <h2>Habilidades</h2>
           <h3>Soft Skills</h3>
           <ul>
             { softSkills.map((skill) => <li>{ skill }</li>)}
           </ul>
           <h3>Hard Skills</h3>
           <div className="hard-skills">
-          {
+            {
             hardSkills.map(({ skill, thumb }, index) => (
-              <div key={ index }>
+              <div key={skill}>
                 <img
-                  src={ thumb }
+                  src={thumb}
                   alt="hard-skills logo"
-                  className={ `hard-skill-${index} hard-skill` }
+                  className={`hard-skill-${index} hard-skill`}
                 />
                 <h4>{ skill }</h4>
               </div>
             ))
-          }            
+          }
           </div>
         </div>
       </main>

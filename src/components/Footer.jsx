@@ -9,12 +9,12 @@ function Footer() {
       <div>
         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gui-pereira/">
           <p>
-            <img className="linkedin" src={ linkedinLogo } alt="Logo do linkedin" />
+            <img className="linkedin" src={linkedinLogo} alt="Logo do linkedin" />
           </p>
         </a>
         <a target="_blank" rel="noreferrer" href="https://github.com/guidpo0">
           <p>
-            <img className="github" src={ githubLogo } alt="Logo do github" />
+            <img className="github" src={githubLogo} alt="Logo do github" />
           </p>
         </a>
       </div>

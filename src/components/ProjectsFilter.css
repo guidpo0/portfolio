@@ -28,7 +28,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
 }
 
 .filter-by-stacks-container h4 {

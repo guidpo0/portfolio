@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './ProjectCard.css';
 import repoIcon from '../images/repoIcon.png';
+import siteIcon from '../images/siteIcon.png';
 
 function ProjectCard({ project }) {
   const {
@@ -23,7 +24,7 @@ function ProjectCard({ project }) {
           </a>
           { !site ? null : (
             <a href={site} target="_blank" rel="noreferrer">
-              <img width="20" src={repoIcon} alt="Repo icon" />
+              <img width="20" src={siteIcon} alt="Site icon" />
               App
             </a>
           )}

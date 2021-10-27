@@ -15,6 +15,7 @@ import defaultBack from '../images/projects/defaultBack.png';
 const projectsInfo = [
   {
     link: 'https://github.com/guidpo0/movie-cards-library-crud',
+    site: 'https://guidpo0.github.io/movie-cards-library-crud',
     thumb: moviesCrud,
     title: 'Movie Cards Library CRUD',
     area: 'front-end',
@@ -28,6 +29,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/movie-cards-library-stateful',
+    site: 'https://guidpo0.github.io/movie-cards-library-stateful',
     thumb: moviesStateful,
     title: 'Movie Cards Library Stateful',
     area: 'front-end',
@@ -41,6 +43,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/movie-cards-library',
+    site: 'https://guidpo0.github.io/movie-cards-library',
     thumb: movies,
     title: 'Movie Cards Library',
     area: 'front-end',
@@ -54,6 +57,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/financiamento',
+    site: 'https://guidpo0.github.io/financiamento',
     thumb: financiamento,
     title: 'Financiamento',
     area: 'front-end',
@@ -156,6 +160,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/receitas',
+    site: 'https://guidpo0.github.io/receitas',
     thumb: receitas,
     title: 'App de Receitas',
     area: 'front-end',
@@ -173,6 +178,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/planetas-starwars',
+    site: 'https://guidpo0.github.io/planetas-starwars',
     thumb: planetas,
     title: 'Planetas Starwars',
     area: 'front-end',
@@ -188,6 +194,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/carrinho-de-compras',
+    site: 'https://guidpo0.github.io/carrinho-de-compras',
     thumb: shoppingCart,
     title: 'Carrinho de Compras',
     area: 'front-end',
@@ -200,6 +207,7 @@ const projectsInfo = [
   },
   {
     link: 'https://github.com/guidpo0/trybewarts',
+    site: 'https://guidpo0.github.io/trybewarts',
     thumb: trybewarts,
     title: 'Trybewarts',
     area: 'front-end',
@@ -211,7 +219,8 @@ const projectsInfo = [
     highlight: false,
   },
   {
-    link: 'https://github.com/carta-misteriosa/',
+    link: 'https://github.com/guidpo0/carta-misteriosa/',
+    site: 'https://guidpo0.github.io/carta-misteriosa/',
     thumb: carta,
     title: 'Carta Misteriosa',
     area: 'front-end',
@@ -223,7 +232,8 @@ const projectsInfo = [
     highlight: false,
   },
   {
-    link: 'https://github.com/lista-de-tarefas/',
+    link: 'https://github.com/guidpo0/lista-de-tarefas/',
+    site: 'https://guidpo0.github.io/lista-de-tarefas/',
     thumb: todo,
     title: 'Lista de Tarefas',
     area: 'front-end',
@@ -235,7 +245,8 @@ const projectsInfo = [
     highlight: false,
   },
   {
-    link: 'https://github.com/arte-em-pixels/',
+    link: 'https://github.com/guidpo0/arte-em-pixels/',
+    site: 'https://guidpo0.github.io/arte-em-pixels/',
     thumb: pixel,
     title: 'Arte em Pixels',
     area: 'front-end',

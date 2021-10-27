@@ -5,7 +5,7 @@ import repoIcon from '../images/repoIcon.png';
 
 function ProjectCard({ project }) {
   const {
-    thumb, link, title, area, stacks,
+    thumb, link, title, area, stacks, site,
   } = project;
   return (
     <div
@@ -16,10 +16,18 @@ function ProjectCard({ project }) {
     >
       <div className="project-card-title-container">
         <h3>{title}</h3>
-        <a href={link} target="_blank" rel="noreferrer">
-          <img width="20" src={repoIcon} alt="Repo icon" />
-          Repo
-        </a>
+        <div>
+          <a href={link} target="_blank" rel="noreferrer">
+            <img width="20" src={repoIcon} alt="Repo icon" />
+            Repo
+          </a>
+          { !site ? null : (
+            <a href={site} target="_blank" rel="noreferrer">
+              <img width="20" src={repoIcon} alt="Repo icon" />
+              App
+            </a>
+          )}
+        </div>
       </div>
       <div className="project-card-stacks-container">
         <h4>
@@ -27,7 +35,7 @@ function ProjectCard({ project }) {
           {' '}
           {area}
         </h4>
-        <h5>Stacks:</h5>
+        <h5>Tecnologias utilizadas:</h5>
         <div>
           { stacks.map((stack) => (<h6>{stack}</h6>))}
         </div>

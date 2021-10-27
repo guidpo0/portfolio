@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import stacksData from '../data/stacks.json';
+import './ProjectsFilter.css';
 
 function ProjectsFilter({ filters, setFilters }) {
   const { stacks } = filters;
@@ -27,9 +28,9 @@ function ProjectsFilter({ filters, setFilters }) {
   }
 
   return (
-    <div>
+    <div className="projects-filter-container">
       <h3>Filtrar por:</h3>
-      <div>
+      <div className="filter-by-area-container">
         <h4>Área</h4>
         <label htmlFor="everything">
           <input
@@ -73,22 +74,24 @@ function ProjectsFilter({ filters, setFilters }) {
           Full-Stack
         </label>
       </div>
-      <div>
+      <div className="filter-by-stacks-container">
         <h4>Stacks</h4>
-        {
-          stacksData.map((stackName) => (
-            <label htmlFor={stackName}>
-              <input
-                type="checkbox"
-                id={stackName}
-                value={stackName}
-                name="stacks"
-                onClick={setStacksFilter}
-              />
-              {stackName}
-            </label>
-          ))
-        }
+        <div>
+          {
+            stacksData.map((stackName) => (
+              <label htmlFor={stackName}>
+                <input
+                  type="checkbox"
+                  id={stackName}
+                  value={stackName}
+                  name="stacks"
+                  onClick={setStacksFilter}
+                />
+                {stackName}
+              </label>
+            ))
+          }
+        </div>
       </div>
     </div>
   );

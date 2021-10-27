@@ -1,0 +1,51 @@
+.projects-filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.filter-by-area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.filter-by-area-container h4 {
+  margin-bottom: 10px;
+}
+
+.filter-by-area-container label {
+  margin: 5px;
+}
+
+.filter-by-area-container label input {
+  margin-right: 5px;
+}
+
+.filter-by-stacks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.filter-by-stacks-container h4 {
+  margin-bottom: 10px;
+}
+
+.filter-by-stacks-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-by-stacks-container div label {
+  margin: 5px;
+}
+
+.filter-by-stacks-container div label input {
+  margin-right: 5px;
+}

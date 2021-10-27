@@ -11,9 +11,7 @@ function ProjectCard({ project }) {
     <div
       className="project-card-container"
       style={{
-        background: `url(${thumb})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        background: `url(${thumb}) center center / cover`,
       }}
     >
       <div className="project-card-title-container">

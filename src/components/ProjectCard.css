@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 45%;
   margin: 30px 0;
   border-radius: 10px;
   border: 1px solid black;
@@ -53,4 +53,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   margin: 2px 5px;
   padding: 1px 2px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .project-card-container {
+    width: 100%;
+  }
 }

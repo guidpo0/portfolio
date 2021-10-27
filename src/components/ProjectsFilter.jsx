@@ -32,47 +32,49 @@ function ProjectsFilter({ filters, setFilters }) {
       <h3>Filtrar por:</h3>
       <div className="filter-by-area-container">
         <h4>Área</h4>
-        <label htmlFor="everything">
-          <input
-            type="radio"
-            id="everything"
-            value=""
-            name="area-type"
-            onClick={setAreaFilter}
-            defaultChecked
-          />
-          Todas
-        </label>
-        <label htmlFor="front-end">
-          <input
-            type="radio"
-            id="front-end"
-            value="front-end"
-            name="area-type"
-            onClick={setAreaFilter}
-          />
-          Front-End
-        </label>
-        <label htmlFor="back-end">
-          <input
-            type="radio"
-            id="back-end"
-            value="back-end"
-            name="area-type"
-            onClick={setAreaFilter}
-          />
-          Back-End
-        </label>
-        <label htmlFor="full-stack">
-          <input
-            type="radio"
-            id="full-stack"
-            value="full-stack"
-            name="area-type"
-            onClick={setAreaFilter}
-          />
-          Full-Stack
-        </label>
+        <div>
+          <label htmlFor="everything">
+            <input
+              type="radio"
+              id="everything"
+              value=""
+              name="area-type"
+              onClick={setAreaFilter}
+              defaultChecked
+            />
+            Todas
+          </label>
+          <label htmlFor="front-end">
+            <input
+              type="radio"
+              id="front-end"
+              value="front-end"
+              name="area-type"
+              onClick={setAreaFilter}
+            />
+            Front-End
+          </label>
+          <label htmlFor="back-end">
+            <input
+              type="radio"
+              id="back-end"
+              value="back-end"
+              name="area-type"
+              onClick={setAreaFilter}
+            />
+            Back-End
+          </label>
+          <label htmlFor="full-stack">
+            <input
+              type="radio"
+              id="full-stack"
+              value="full-stack"
+              name="area-type"
+              onClick={setAreaFilter}
+            />
+            Full-Stack
+          </label>
+        </div>
       </div>
       <div className="filter-by-stacks-container">
         <h4>Stacks</h4>

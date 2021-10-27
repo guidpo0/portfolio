@@ -44,7 +44,7 @@ function Projects() {
         return projectIsValid;
       });
     }
-    return filteredProjects;
+    return filteredProjects.sort(() => Math.random() - 0.5);
   }
 
   return (

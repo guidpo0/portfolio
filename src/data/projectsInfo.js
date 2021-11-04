@@ -10,6 +10,8 @@ import moviesCrud from '../images/projects/moviesCrud.jpeg';
 import moviesStateful from '../images/projects/moviesStateful.jpeg';
 import movies from '../images/projects/movies.jpeg';
 import financiamento from '../images/projects/financiamento.jpeg';
+import happmobi from '../images/projects/happmobi.jpeg';
+import nimbus from '../images/projects/nimbus.jpeg';
 import defaultBack from '../images/projects/defaultBack.png';
 
 const projectsInfo = [
@@ -256,6 +258,43 @@ const projectsInfo = [
       'JavaScript',
     ],
     highlight: false,
+  },
+  {
+    link: 'https://github.com/guidpo0/desafio-happmobi',
+    site: 'https://desafio-happmobi-frontend.herokuapp.com/',
+    thumb: happmobi,
+    title: 'Aluguel de Carros',
+    area: 'full-stack',
+    stacks: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'Angular',
+      'MySQL',
+      'Node.js',
+      'Express.js',
+    ],
+    highlight: true,
+  },
+  {
+    link: 'https://github.com/guidpo0/desafio-nimbus',
+    site: 'https://desafionimbus-frontend.herokuapp.com/',
+    thumb: nimbus,
+    title: 'Previsão do Tempo',
+    area: 'full-stack',
+    stacks: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'MySQL',
+      'Node.js',
+      'Express.js',
+      'Context API',
+      'React Hooks',
+    ],
+    highlight: true,
   },
 ];
 

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d59c3b05.chunk.css",
-    "main.js": "/static/js/main.360b5a64.chunk.js",
-    "main.js.map": "/static/js/main.360b5a64.chunk.js.map",
+    "main.js": "/static/js/main.04124477.chunk.js",
+    "main.js.map": "/static/js/main.04124477.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f792758c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f792758c.js.map",
     "static/js/2.5d3ead53.chunk.js": "/static/js/2.5d3ead53.chunk.js",
@@ -18,11 +18,13 @@
     "static/media/financiamento.5947521c.jpeg": "/static/media/financiamento.5947521c.jpeg",
     "static/media/gear.540ab5dc.svg": "/static/media/gear.540ab5dc.svg",
     "static/media/github.987334e9.png": "/static/media/github.987334e9.png",
+    "static/media/happmobi.2cc97ef8.jpeg": "/static/media/happmobi.2cc97ef8.jpeg",
     "static/media/App.css": "/static/media/homeBg.92f4c36a.png",
     "static/media/linkedin.ed083572.png": "/static/media/linkedin.ed083572.png",
     "static/media/movies.adbff929.jpeg": "/static/media/movies.adbff929.jpeg",
     "static/media/moviesCrud.50d650f5.jpeg": "/static/media/moviesCrud.50d650f5.jpeg",
     "static/media/moviesStateful.1efdefd7.jpeg": "/static/media/moviesStateful.1efdefd7.jpeg",
+    "static/media/nimbus.cd760f4a.jpeg": "/static/media/nimbus.cd760f4a.jpeg",
     "static/media/pixel.3f7b32e4.jpeg": "/static/media/pixel.3f7b32e4.jpeg",
     "static/media/planetas-starwars.b479f76d.jpeg": "/static/media/planetas-starwars.b479f76d.jpeg",
     "static/media/receitas.c3cf394d.png": "/static/media/receitas.c3cf394d.png",
@@ -38,6 +40,6 @@
     "static/js/runtime-main.f792758c.js",
     "static/js/2.5d3ead53.chunk.js",
     "static/css/main.d59c3b05.chunk.css",
-    "static/js/main.360b5a64.chunk.js"
+    "static/js/main.04124477.chunk.js"
   ]
 }

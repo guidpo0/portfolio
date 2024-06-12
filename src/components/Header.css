@@ -1,84 +1,61 @@
 .navbar-container {
-  height: 70px;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: white;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.profile img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.profile span {
+  font-weight: 600;
 }
 
 .navbar {
-  background-color: #111;
-  left: 0;
-  position: fixed;
-  height: 70px;
-  display: initial;
-  top: 0;
-  z-index: 1;
-  width: 100vw;
-}
-
-.links-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  width: 100%;
 }
 
-.links-container a {
+.navbar a {
   margin: initial;
+  cursor: default;
 }
 
-.links-container a button {
-  color: white;
+.navbar a button {
   background-color: transparent;
-  font-size: 1.2em;
-  padding: 10px;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 0 20px;
   text-align: center;
   border: none;
-  font-weight: 900;
+  font-weight: 500;
   position: relative;
   cursor: pointer;
+  border-radius: 10px;
 }
 
-.links-container a button:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-right: 5px solid white;
-  border-top: 5px solid white;
-  z-index: -1;
-  transition: 1s;
-  opacity: 0;
-}
-
-.links-container a button:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 5px solid white;
-  z-index: -1;
-  opacity: 0;
-  border-bottom: 5px solid white;
-  transition: 1s;
-}
-
-.links-container a button:hover:after {
-  width: 60%;
-  opacity: 1;
-  height: 60%;
-}
-
-.links-container a button:hover:before {
-  width: 60%;
-  opacity: 1;
-  height: 60%;
-}
-
-.toggle-colapsed-bar {
-  display: none;
+.active button,
+.navbar a button:hover {
+  background-color: #445964 !important;
+  color: white;
 }
 
 @media screen and (max-width: 767.98px) {

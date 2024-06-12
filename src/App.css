@@ -1,15 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #445964;
 }
 
-#root {
-  background-image: url('./images/homeBg.png');
-  background-repeat: repeat-y;
-  background-position-x: center;
-  background-size: contain;
-  min-height: 100vh;
-  overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
+main {
+  margin-top: 100px;
 }
